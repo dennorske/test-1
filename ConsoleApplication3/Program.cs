@@ -23,7 +23,7 @@ namespace ConsoleApplication3
 
             foreach (string mytotallyrandomname in carNames)
             {
-               //because i will create a new Car somerandomCar every loop 
+                //because i will create a new Car somerandomCar every loop 
                 Car someRandomCar = new Car(mytotallyrandomname, "1999", 4); // so my class gets created with me passing the honda / toyota / open /volvo name 
 
                 myCarList.Add(someRandomCar);
@@ -46,11 +46,13 @@ namespace ConsoleApplication3
 
         }
     }
-
+    public function test(
+        "some weird code "
+    )
     public class Car
     {
         // the variable that will hold the carname
-        private string carName = "";  
+        private string carName = "";
 
         //well it can hold more than 1 variable for example
         //so now i have different variables inside my car that i can assign
